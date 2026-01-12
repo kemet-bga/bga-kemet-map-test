@@ -105,7 +105,7 @@ main {
 }
 
 .highlight-selected {
-    filter: invert(21%) sepia(100%) saturate(7482%) hue-rotate(359deg) brightness(105%) contrast(116%);
+    filter: invert(12%) sepia(100%) saturate(6482%) hue-rotate(350deg) brightness(102%) contrast(118%);
 }
 
 .highlight-adjacent {
