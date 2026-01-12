@@ -1,0 +1,245 @@
+{
+  "sanctuary": {
+    "name": "Sanctuary Of All Gods",
+    "type": "sanctuaryOfAllGods",
+    "adjacent": [
+      "desert11"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#7324F2"
+  },
+  "desert1": {
+    "name": "Desert 1",
+    "type": "desert",
+    "adjacent": [
+      "city1",
+      "desert2",
+      "desert6",
+      "temple1"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#A3F224"
+  },
+  "desert2": {
+    "name": "Desert 2",
+    "type": "desert",
+    "adjacent": [
+      "temple1",
+      "desert1",
+      "desert6",
+      "desert3"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#24F234"
+  },
+  "desert3": {
+    "name": "Desert 3",
+    "type": "desert",
+    "adjacent": [
+      "city5",
+      "desert2",
+      "desert6",
+      "desert4",
+      "temple1"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#24F263"
+  },
+  "temple1": {
+    "name": "Temple 1",
+    "type": "temple",
+    "adjacent": [
+      "desert2",
+      "desert3",
+      "desert1",
+      "desert4",
+      "desert5"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#A324F2"
+  },
+  "city5": {
+    "name": "City 5",
+    "type": "city",
+    "adjacent": [
+      "desert3"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#F2E224"
+  },
+  "desert4": {
+    "name": "Desert 4",
+    "type": "desert",
+    "adjacent": [
+      "temple1",
+      "desert3",
+      "desert5",
+      "desert6"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#24F293"
+  },
+  "desert5": {
+    "name": "Desert 5",
+    "type": "desert",
+    "adjacent": [
+      "temple1",
+      "desert4",
+      "desert6",
+      "city2"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#24F2C2"
+  },
+  "desert6": {
+    "name": "Desert 6",
+    "type": "desert",
+    "adjacent": [
+      "temple2",
+      "desert1",
+      "desert2",
+      "desert3",
+      "desert4",
+      "desert5",
+      "desert10",
+      "desert7",
+      "temple3"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#24F2F2"
+  },
+  "desert7": {
+    "name": "Desert 7",
+    "type": "desert",
+    "adjacent": [
+      "city3",
+      "desert8",
+      "desert9",
+      "temple4"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#24C2F2"
+  },
+  "desert8": {
+    "name": "Desert 8",
+    "type": "desert",
+    "adjacent": [
+      "temple4",
+      "desert7",
+      "desert9",
+      "desert10"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#2493F2"
+  },
+  "desert9": {
+    "name": "Desert 9",
+    "type": "desert",
+    "adjacent": [
+      "city1",
+      "desert7",
+      "desert8",
+      "desert10",
+      "temple3"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#2463F2"
+  },
+  "desert10": {
+    "name": "Desert 10",
+    "type": "desert",
+    "adjacent": [
+      "city4",
+      "desert9",
+      "desert8",
+      "desert6",
+      "temple4"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#73F224"
+  },
+  "desert11": {
+    "name": "Desert 11",
+    "type": "desert",
+    "adjacent": [
+      "sanctuary"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#44F224"
+  },
+  "city1": {
+    "name": "City 1",
+    "type": "city",
+    "adjacent": [
+      "desert1"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#F22424"
+  },
+  "city2": {
+    "name": "City 2",
+    "type": "city",
+    "adjacent": [
+      "desert5"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#F25324"
+  },
+  "city3": {
+    "name": "City 3",
+    "type": "city",
+    "adjacent": [
+      "desert7"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#F28324"
+  },
+  "city4": {
+    "name": "City 4",
+    "type": "city",
+    "adjacent": [
+      "desert10"
+    ],
+    "obelisk": false,
+    "hitboxColor": "#F2B224"
+  },
+  "temple2": {
+    "name": "Temple 2",
+    "type": "temple",
+    "adjacent": [
+      "desert6"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#D224F2"
+  },
+  "temple3": {
+    "name": "Temple 3",
+    "type": "temple",
+    "adjacent": [
+      "desert9",
+      "desert6"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#F224E2"
+  },
+  "temple4": {
+    "name": "Temple 4",
+    "type": "temple",
+    "adjacent": [
+      "desert7",
+      "desert8",
+      "desert10"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#F224B2"
+  },
+  "temple6": {
+    "name": "Temple 6",
+    "type": "temple",
+    "adjacent": [
+      "desert11"
+    ],
+    "obelisk": true,
+    "hitboxColor": "#F22483"
+  }
+}
