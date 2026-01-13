@@ -13,7 +13,8 @@ document.addEventListener('DOMContentLoaded', () => {
     async function loadMapData(playerCount) {
         try {
             const response = await fetch(`./data/map/map${playerCount}p.json`);
-            mapData = await response.json();
+            const data = await response.json();
+            mapData = data.spaces;
             
             hitboxImage.src = `./img/map/map${playerCount}p/hitbox.png`;
             hitboxImage.onload = () => {
