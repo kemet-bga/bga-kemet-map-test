@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', () => {
     playerCountSelect.addEventListener('change', (event) => {
         const playerCount = event.target.value;
         currentCount = playerCount;
-        const newSrc = `./img/map/map${playerCount}p/background.jpeg`;
+        const newSrc = `./img/map/map${playerCount}p/background.jpg`;
         
         mapImage.src = newSrc;
         mapImage.alt = `Карта для ${playerCount} игроков`;
