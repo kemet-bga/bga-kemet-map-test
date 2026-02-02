@@ -119,15 +119,24 @@ document.addEventListener('DOMContentLoaded', () => {
     playerCountSelect.addEventListener('change', (event) => {
         const playerCount = event.target.value;
         currentCount = playerCount;
-        const newSrc = `./img/map/map${playerCount}p.jpg`;
-        
+
+        // Определяем какую карту использовать
+        let mapFileName;
+        if (playerCount === '2' || playerCount === '4') {
+            mapFileName = 'map2p4p.jpg';
+        } else {
+            mapFileName = 'map3p5p.jpg';
+        }
+
+        const newSrc = `./img/map/${mapFileName}`;
+
         mapImage.src = newSrc;
         mapImage.alt = `Карта для ${playerCount} игроков`;
-        
+
         loadMapData(playerCount);
         infoPanel.textContent = 'Кликните по карте, чтобы выбрать регион';
         clearHighlights();
-        
+
         console.log(`Количество игроков изменено на: ${playerCount}. Путь к карте: ${newSrc}`);
     });
 

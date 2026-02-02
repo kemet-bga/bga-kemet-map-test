@@ -1,14 +1,18 @@
 // Загрузка данных и отображение тайлов силы
 async function loadPowerTiles() {
     try {
-        // Загружаем оба JSON файла параллельно
-        const [layoutResponse, spritesheetResponse] = await Promise.all([
+        // Загружаем все JSON файлы параллельно
+        const [layoutResponse, spritesheetResponse, tilesDataResponse, localizationResponse] = await Promise.all([
             fetch('./data/powerTiles/powerTilesLayout.json'),
-            fetch('./img/powerTiles/powerTiles.json')
+            fetch('./img/powerTiles/powerTiles.json'),
+            fetch('./data/powerTiles/powerTiles.json'),
+            fetch('./data/localization/localization.en.json')
         ]);
 
         const layout = await layoutResponse.json();
         const spritesheet = await spritesheetResponse.json();
+        const tilesData = await tilesDataResponse.json();
+        const localization = await localizationResponse.json();
 
         const container = document.getElementById('power-tiles-container');
 
@@ -31,6 +35,9 @@ async function loadPowerTiles() {
             // Заполняем сетку тайлами
             groupData.layout.forEach(row => {
                 row.forEach(tileName => {
+                    const tileWrapper = document.createElement('div');
+                    tileWrapper.className = 'power-tile-wrapper';
+
                     const tileDiv = document.createElement('div');
                     tileDiv.className = 'power-tile';
 
@@ -46,7 +53,31 @@ async function loadPowerTiles() {
                         tileDiv.style.height = `${h}px`;
                     }
 
-                    grid.appendChild(tileDiv);
+                    tileWrapper.appendChild(tileDiv);
+
+                    // Получаем данные тайла
+                    const tileInfo = tilesData[tileName];
+                    if (tileInfo) {
+                        // Получаем локализованное название
+                        const titleKey = tileInfo.name;
+                        const titleText = localization[titleKey] || titleKey;
+
+                        const titleElement = document.createElement('div');
+                        titleElement.className = 'power-tile-title';
+                        titleElement.textContent = titleText;
+                        tileWrapper.appendChild(titleElement);
+
+                        // Получаем локализованный текст
+                        const textKey = tileInfo.text;
+                        const textContent = localization[textKey] || textKey;
+
+                        const textElement = document.createElement('div');
+                        textElement.className = 'power-tile-text';
+                        textElement.textContent = textContent;
+                        tileWrapper.appendChild(textElement);
+                    }
+
+                    grid.appendChild(tileWrapper);
                 });
             });
 

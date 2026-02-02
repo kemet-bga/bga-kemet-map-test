@@ -155,8 +155,15 @@ main {
 .power-tiles-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
+    gap: 20px;
     justify-items: center;
+}
+
+.power-tile-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 254px;
 }
 
 .power-tile {
@@ -164,9 +171,25 @@ main {
     cursor: pointer;
     transition: transform 0.2s;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
 }
 
 .power-tile:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.power-tile-title {
+    font-weight: bold;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.power-tile-text {
+    font-size: 12px;
+    text-align: center;
+    color: #555;
+    line-height: 1.4;
 }
