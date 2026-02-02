@@ -23,6 +23,9 @@
 		
 		["../drafts/meta/powerTiles/powerTiles.json", "./data/powerTiles/"],
 		["../drafts/meta/powerTiles/powerTilesLayout.json", "./data/powerTiles/"],
-		["../drafts/meta/localization/localization.en.json", "./data/localization/"]
+		["../drafts/meta/localization/localization.en.json", "./data/localization/"],
+		
+		["../drafts/img/actionToken/export/actionTokens/gold.png", "./img/actionTokens/"],
+		["../drafts/img/actionToken/export/actionTokens/silver.png", "./img/actionTokens/"]
     ]
 }

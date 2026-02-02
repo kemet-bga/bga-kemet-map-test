@@ -80,8 +80,31 @@ async function loadPowerTiles() {
 
                         const textElement = document.createElement('div');
                         textElement.className = 'power-tile-text';
-                        textElement.textContent = textContent;
+                        textElement.style.textAlign = 'left';
+                        textElement.style.whiteSpace = 'pre-line';
+                        textElement.innerHTML = textContent.replace(/☥/g, '<span class="kemet-symbol-ankh">☥</span>');
                         tileWrapper.appendChild(textElement);
+
+                        // Добавляем action token если есть
+                        if (tileInfo.silverActionToken) {
+                            const tokenImg = document.createElement('img');
+                            tokenImg.src = './img/actionTokens/silver.png';
+                            tokenImg.className = 'action-token-img';
+                            tileWrapper.appendChild(tokenImg);
+                        } else if (tileInfo.goldActionToken) {
+                            const tokenImg = document.createElement('img');
+                            tokenImg.src = './img/actionTokens/gold.png';
+                            tokenImg.className = 'action-token-img';
+                            tileWrapper.appendChild(tokenImg);
+                        }
+
+                        // Добавляем creature если есть
+                        if (tileInfo.creature) {
+                            const creatureImg = document.createElement('img');
+                            creatureImg.src = `./img/creatures/${tileInfo.creature}.png`;
+                            creatureImg.className = 'action-token-img';
+                            tileWrapper.appendChild(creatureImg);
+                        }
                     }
 
                     grid.appendChild(tileWrapper);
