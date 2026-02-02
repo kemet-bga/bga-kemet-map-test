@@ -1,0 +1,524 @@
+{"frames": {
+
+"diamondActOfGod":
+{
+	"frame": {"x":1,"y":1,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondDivineBoon":
+{
+	"frame": {"x":1,"y":221,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondDivineHunger":
+{
+	"frame": {"x":1,"y":441,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondDomination":
+{
+	"frame": {"x":1,"y":661,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondHandOfGod":
+{
+	"frame": {"x":1,"y":881,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondHighPriest":
+{
+	"frame": {"x":1,"y":1101,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondMagicalSupport":
+{
+	"frame": {"x":1,"y":1321,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondPriest1":
+{
+	"frame": {"x":1,"y":1541,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondPriest2":
+{
+	"frame": {"x":1,"y":1541,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondPriestess1":
+{
+	"frame": {"x":1,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondPriestess2":
+{
+	"frame": {"x":1,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondPriestOfAmon":
+{
+	"frame": {"x":257,"y":1,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondPriestOfRa":
+{
+	"frame": {"x":257,"y":221,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondPriestOfThoeris":
+{
+	"frame": {"x":257,"y":441,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondTheMummy":
+{
+	"frame": {"x":257,"y":661,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"diamondVision":
+{
+	"frame": {"x":257,"y":881,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxActOfGod":
+{
+	"frame": {"x":257,"y":1101,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxAmmoutTheSoulDevourer":
+{
+	"frame": {"x":257,"y":1321,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxBestialFury":
+{
+	"frame": {"x":257,"y":1541,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxDeadlyTrap":
+{
+	"frame": {"x":257,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxDedicationToBattle":
+{
+	"frame": {"x":513,"y":1,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxDivineMight":
+{
+	"frame": {"x":513,"y":221,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxDomination":
+{
+	"frame": {"x":513,"y":441,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxForcedMarch":
+{
+	"frame": {"x":513,"y":661,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxGriffinSphinx":
+{
+	"frame": {"x":513,"y":881,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxHonorInBattle":
+{
+	"frame": {"x":513,"y":1101,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxKhnumsSphinx":
+{
+	"frame": {"x":513,"y":1321,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxLocalRecruitment":
+{
+	"frame": {"x":513,"y":1541,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxMercenaries1":
+{
+	"frame": {"x":513,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxMercenaries2":
+{
+	"frame": {"x":513,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxRiteOfAqen":
+{
+	"frame": {"x":769,"y":1,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"onyxTwinCeremony":
+{
+	"frame": {"x":769,"y":221,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyActOfGod":
+{
+	"frame": {"x":769,"y":441,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyBladesOfNeith":
+{
+	"frame": {"x":769,"y":661,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyCarnage":
+{
+	"frame": {"x":769,"y":881,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyCharge1":
+{
+	"frame": {"x":769,"y":1101,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyCharge2":
+{
+	"frame": {"x":769,"y":1101,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyDivineWound":
+{
+	"frame": {"x":769,"y":1321,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyDomination":
+{
+	"frame": {"x":769,"y":1541,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyGiantScorpion":
+{
+	"frame": {"x":769,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyInitiative":
+{
+	"frame": {"x":1025,"y":1,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyPhoenix":
+{
+	"frame": {"x":1025,"y":221,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyPortalOfThoth":
+{
+	"frame": {"x":1025,"y":441,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyPriestOfMafdet":
+{
+	"frame": {"x":1025,"y":661,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyRoyalScarab":
+{
+	"frame": {"x":1025,"y":881,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubySappers":
+{
+	"frame": {"x":1025,"y":1101,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyStargate":
+{
+	"frame": {"x":1025,"y":1321,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"rubyWrrytStorm":
+{
+	"frame": {"x":1025,"y":1541,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireActOfGod":
+{
+	"frame": {"x":1025,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireAncestralElephant":
+{
+	"frame": {"x":1281,"y":1,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireDeepDesertSnake":
+{
+	"frame": {"x":1281,"y":221,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireDefense1":
+{
+	"frame": {"x":1281,"y":441,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireDefense2":
+{
+	"frame": {"x":1281,"y":441,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireDefensiveVictory":
+{
+	"frame": {"x":1281,"y":661,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireDivineWill":
+{
+	"frame": {"x":1281,"y":881,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireDomination":
+{
+	"frame": {"x":1281,"y":1101,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireLegion":
+{
+	"frame": {"x":1281,"y":1321,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphirePrescience":
+{
+	"frame": {"x":1281,"y":1541,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireRecruitingScribe1":
+{
+	"frame": {"x":1281,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireRecruitingScribe2":
+{
+	"frame": {"x":1281,"y":1761,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireReinforcements":
+{
+	"frame": {"x":1537,"y":1,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireShetywBarrier":
+{
+	"frame": {"x":1537,"y":221,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireShieldsOfNeith":
+{
+	"frame": {"x":1537,"y":441,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+},
+"sapphireSphinx":
+{
+	"frame": {"x":1537,"y":661,"w":254,"h":218},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":254,"h":218},
+	"sourceSize": {"w":254,"h":218}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "powerTiles.jpg",
+	"format": "RGB888",
+	"size": {"w":1792,"h":1980},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3a08c051165e7847e70491d1e29e9544:f797ef1102c962cb9e03b487936ebbbe:867a80e69957b483e44c93b393dfe3df$"
+}
+}

@@ -1,0 +1,122 @@
+{
+    "ruby": {
+        "title": "Ruby power tiles",
+        "titleColor": "9b222f",
+        "layout": [
+            [
+                "rubyCharge1",
+                "rubyCharge2",
+                "rubyStargate",
+                "rubyPriestOfMafdet"
+            ],
+            [
+                "rubyCarnage",
+                "rubyWrrytStorm",
+                "rubySappers",
+                "rubyPortalOfThoth"
+            ],
+            [
+                "rubyRoyalScarab",
+                "rubyBladesOfNeith",
+                "rubyDivineWound",
+                "rubyDomination"
+            ],
+            [
+                "rubyGiantScorpion",
+                "rubyInitiative",
+                "rubyPhoenix",
+                "rubyActOfGod"
+            ]
+        ]
+    },
+    "sapphire": {
+        "title": "Sapphire power tiles",
+        "titleColor": "0e4d95",
+        "layout": [
+            [
+                "sapphireRecruitingScribe1",
+                "sapphireRecruitingScribe2",
+                "sapphireDefense1",
+                "sapphireDefense2"
+            ],
+            [
+                "sapphireLegion",
+                "sapphireAncestralElephant",
+                "sapphireShetywBarrier",
+                "sapphireDeepDesertSnake"
+            ],
+            [
+                "sapphireShieldsOfNeith",
+                "sapphireDefensiveVictory",
+                "sapphirePrescience",
+                "sapphireDomination"
+            ],
+            [
+                "sapphireReinforcements",
+                "sapphireSphinx",
+                "sapphireDivineWill",
+                "sapphireActOfGod"
+            ]
+        ]
+    },
+    "diamond": {
+        "title": "Diamond power tiles",
+        "titleColor": "231f20",
+        "layout": [
+            [
+                "diamondPriest1",
+                "diamondPriest2",
+                "diamondPriestess1",
+                "diamondPriestess2"
+            ],
+            [
+                "diamondMagicalSupport",
+                "diamondHighPriest",
+                "diamondDivineHunger",
+                "diamondDivineBoon"
+            ],
+            [
+                "diamondHandOfGod",
+                "diamondVision",
+                "diamondPriestOfThoeris",
+                "diamondDomination"
+            ],
+            [
+                "diamondPriestOfRa",
+                "diamondPriestOfAmon",
+                "diamondTheMummy",
+                "diamondActOfGod"
+            ]
+        ]
+    },
+    "onyx": {
+        "title": "Onyx power tiles",
+        "titleColor": "231f20",
+        "layout": [
+            [
+                "onyxMercenaries1",
+                "onyxMercenaries2",
+                "onyxLocalRecruitment",
+                "onyxRiteOfAqen"
+            ],
+            [
+                "onyxHonorInBattle",
+                "onyxDedicationToBattle",
+                "onyxKhnumsSphinx",
+                "onyxTwinCeremony"
+            ],
+            [
+                "onyxGriffinSphinx",
+                "onyxForcedMarch",
+                "onyxDeadlyTrap",
+                "onyxDomination"
+            ],
+            [
+                "onyxAmmoutTheSoulDevourer",
+                "onyxBestialFury",
+                "onyxDivineMight",
+                "onyxActOfGod"
+            ]
+        ]
+    }
+}

@@ -18,6 +18,13 @@
 		["../drafts/img/map/export/map2pHitbox.json", "./data/map/"],
 		["../drafts/img/map/export/map3pHitbox.json", "./data/map/"],
 		["../drafts/img/map/export/map4pHitbox.json", "./data/map/"],
-		["../drafts/img/map/export/map5pHitbox.json", "./data/map/"]
+		["../drafts/img/map/export/map5pHitbox.json", "./data/map/"],
+		
+		["../drafts/img/powerTiles/spritesheet/powerTiles.jpg", "./img/powerTiles/"],
+		["../drafts/img/powerTiles/spritesheet/powerTiles.json", "./img/powerTiles/"],
+		
+		["../drafts/meta/powerTiles/powerTiles.json", "./data/powerTiles/"],
+		["../drafts/meta/powerTiles/powerTilesLayout.json", "./data/powerTiles/"],
+		["../drafts/meta/localization/localization.en.json", "./data/localization/"]
     ]
 }
