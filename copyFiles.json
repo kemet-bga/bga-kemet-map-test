@@ -1,0 +1,23 @@
+{
+    "copy_rules": [
+        ["../drafts/meta/map/map2p.json", "./data/map/"],
+        ["../drafts/meta/map/map3p.json", "./data/map/"],
+		["../drafts/meta/map/map4p.json", "./data/map/"],
+		["../drafts/meta/map/map5p.json", "./data/map/"],
+		
+		["../drafts/img/map/export/map2p4p.jpg", "./img/map/map2p.jpg"],
+		["../drafts/img/map/export/map2p4p.jpg", "./img/map/map4p.jpg"],
+		["../drafts/img/map/export/map3p5p.jpg", "./img/map/map3p.jpg"],
+		["../drafts/img/map/export/map3p5p.jpg", "./img/map/map5p.jpg"],
+		
+		["../drafts/img/map/export/map2pHitbox.png", "./img/map/"],
+		["../drafts/img/map/export/map3pHitbox.png", "./img/map/"],
+		["../drafts/img/map/export/map4pHitbox.png", "./img/map/"],
+		["../drafts/img/map/export/map5pHitbox.png", "./img/map/"],
+		
+		["../drafts/img/map/export/map2pHitbox.json", "./data/map/"],
+		["../drafts/img/map/export/map3pHitbox.json", "./data/map/"],
+		["../drafts/img/map/export/map4pHitbox.json", "./data/map/"],
+		["../drafts/img/map/export/map5pHitbox.json", "./data/map/"]
+    ]
+}

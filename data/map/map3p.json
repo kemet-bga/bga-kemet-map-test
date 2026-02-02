@@ -1,4 +1,30 @@
 {
+  "cities": {
+    "city1": {
+      "name": "North West Town",
+      "districts": [
+        "city1d1",
+        "city1d2",
+        "city1d3"
+      ]
+    },
+    "city2": {
+      "name": "South Town",
+      "districts": [
+        "city2d1",
+        "city2d2",
+        "city2d3"
+      ]
+    },
+    "city5": {
+      "name": "Central Town",
+      "districts": [
+        "city5d1",
+        "city5d2",
+        "city5d3"
+      ]
+    }
+  },
   "spaces": {
     "city1d1": {
       "name": "District 1.1",
@@ -8,8 +34,7 @@
         "city1d3",
         "desert1"
       ],
-      "obelisk": false,
-      "hitboxColor": "#F22424"
+      "obelisk": false
     },
     "city1d2": {
       "name": "District 1.2",
@@ -19,8 +44,7 @@
         "city1d3",
         "desert1"
       ],
-      "obelisk": false,
-      "hitboxColor": "#F24124"
+      "obelisk": false
     },
     "city1d3": {
       "name": "District 1.3",
@@ -30,8 +54,7 @@
         "city1d2",
         "desert1"
       ],
-      "obelisk": false,
-      "hitboxColor": "#F25F24"
+      "obelisk": false
     },
     "city2d1": {
       "name": "District 2.1",
@@ -41,8 +64,7 @@
         "city2d3",
         "desert5"
       ],
-      "obelisk": false,
-      "hitboxColor": "#F27C24"
+      "obelisk": false
     },
     "city2d2": {
       "name": "District 2.2",
@@ -52,8 +74,7 @@
         "city2d3",
         "desert5"
       ],
-      "obelisk": false,
-      "hitboxColor": "#F29A24"
+      "obelisk": false
     },
     "city2d3": {
       "name": "District 2.3",
@@ -63,8 +84,7 @@
         "city2d2",
         "desert5"
       ],
-      "obelisk": false,
-      "hitboxColor": "#F2B724"
+      "obelisk": false
     },
     "city5d1": {
       "name": "District 5.1",
@@ -74,8 +94,7 @@
         "city5d3",
         "desert3"
       ],
-      "obelisk": false,
-      "hitboxColor": "#5FF224"
+      "obelisk": false
     },
     "city5d2": {
       "name": "District 5.2",
@@ -85,8 +104,7 @@
         "city5d3",
         "desert3"
       ],
-      "obelisk": false,
-      "hitboxColor": "#41F224"
+      "obelisk": false
     },
     "city5d3": {
       "name": "District 5.3",
@@ -96,8 +114,7 @@
         "city5d2",
         "desert3"
       ],
-      "obelisk": false,
-      "hitboxColor": "#24F224"
+      "obelisk": false
     },
     "desert1": {
       "name": "Desert 1",
@@ -110,8 +127,7 @@
         "desert6",
         "temple1"
       ],
-      "obelisk": false,
-      "hitboxColor": "#24F241"
+      "obelisk": false
     },
     "desert2": {
       "name": "Desert 2",
@@ -122,8 +138,7 @@
         "desert3",
         "temple1"
       ],
-      "obelisk": true,
-      "hitboxColor": "#245FF2"
+      "obelisk": true
     },
     "desert3": {
       "name": "Desert 3",
@@ -137,8 +152,7 @@
         "desert4",
         "temple1"
       ],
-      "obelisk": false,
-      "hitboxColor": "#2424F2"
+      "obelisk": false
     },
     "desert4": {
       "name": "Desert 4",
@@ -149,8 +163,7 @@
         "desert5",
         "temple1"
       ],
-      "obelisk": true,
-      "hitboxColor": "#4124F2"
+      "obelisk": true
     },
     "desert5": {
       "name": "Desert 5",
@@ -163,8 +176,7 @@
         "desert6",
         "temple1"
       ],
-      "obelisk": false,
-      "hitboxColor": "#5F24F2"
+      "obelisk": false
     },
     "desert6": {
       "name": "Desert 6",
@@ -177,8 +189,7 @@
         "desert1",
         "temple2"
       ],
-      "obelisk": false,
-      "hitboxColor": "#7C24F2"
+      "obelisk": false
     },
     "desert11": {
       "name": "Desert 11",
@@ -187,8 +198,7 @@
         "temple6",
         "sanctuary"
       ],
-      "obelisk": false,
-      "hitboxColor": "#24F27C"
+      "obelisk": false
     },
     "temple1": {
       "name": "Temple 1",
@@ -200,8 +210,7 @@
         "desert4",
         "desert5"
       ],
-      "obelisk": true,
-      "hitboxColor": "#F224D4"
+      "obelisk": true
     },
     "temple2": {
       "name": "Temple 2",
@@ -209,8 +218,7 @@
       "adjacent": [
         "desert6"
       ],
-      "obelisk": true,
-      "hitboxColor": "#F224B7"
+      "obelisk": true
     },
     "temple6": {
       "name": "Temple 6",
@@ -218,8 +226,7 @@
       "adjacent": [
         "desert11"
       ],
-      "obelisk": true,
-      "hitboxColor": "#F22441"
+      "obelisk": true
     },
     "sanctuary": {
       "name": "Sanctuary",
@@ -227,8 +234,7 @@
       "adjacent": [
         "desert11"
       ],
-      "obelisk": true,
-      "hitboxColor": "#F224F2"
+      "obelisk": true
     }
   }
 }

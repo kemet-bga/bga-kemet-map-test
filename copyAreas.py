@@ -1,13 +1,14 @@
+#! python3.13
 # This script was generated with the help of ChatGPT
 
 try:
     import os
     from PIL import Image
 
-    # Determine script directory
+    # Determine script directory (script can be launched from anywhere)
     script_dir = os.path.dirname(os.path.abspath(__file__))
 
-    # Transparency level for overlay (30%)
+    # Transparency multiplier for overlay alpha (30%)
     OVERLAY_ALPHA = 0.3
 
     # Map variants to process
@@ -17,13 +18,13 @@ try:
         print(f"\nProcessing map{variant}p...")
 
         base_dir = os.path.normpath(
-            os.path.join(script_dir, f"../drafts/assets/img/map/map{variant}p/areas")
+            os.path.join(script_dir, f"../drafts/img/map/export/borderedAreas/areas{variant}p")
         )
         overlay_dir = os.path.normpath(
-            os.path.join(script_dir, f"../drafts/assets/img/map/map{variant}p/filledAreas")
+            os.path.join(script_dir, f"../drafts/img/map/export/areas/areas{variant}p")
         )
         output_dir = os.path.normpath(
-            os.path.join(script_dir, f"./img/map/map{variant}p/areas")
+            os.path.join(script_dir, f"./img/map/areas/map{variant}p")
         )
 
         os.makedirs(output_dir, exist_ok=True)
@@ -48,14 +49,24 @@ try:
                 with Image.open(base_path).convert("RGBA") as base_img, \
                      Image.open(overlay_path).convert("RGBA") as overlay_img:
 
-                    # Apply transparency to overlay
-                    alpha = overlay_img.split()[3].point(
-                        lambda p: int(p * OVERLAY_ALPHA)
-                    )
-                    overlay_img.putalpha(alpha)
+                    # Ensure same size (alpha_composite requires identical sizes)
+                    if overlay_img.size != base_img.size:
+                        print(f"Size mismatch for {filename}: base={base_img.size}, overlay={overlay_img.size}, skipping")
+                        continue
 
-                    # Composite images
-                    result = Image.alpha_composite(base_img, overlay_img)
+                    # Take ONLY the alpha channel from the overlay (ignore its RGB completely)
+                    overlay_alpha = overlay_img.getchannel("A")
+
+                    # Apply global transparency multiplier (OVERLAY_ALPHA)
+                    overlay_alpha = overlay_alpha.point(lambda p: int(p * OVERLAY_ALPHA))
+
+                    # Create a "white overlay" image with that alpha mask
+                    # RGB is forced to white, alpha is taken from overlay_alpha
+                    white_overlay = Image.new("RGBA", base_img.size, (255, 255, 255, 0))
+                    white_overlay.putalpha(overlay_alpha)
+
+                    # Composite: base + (white overlay with alpha from overlay)
+                    result = Image.alpha_composite(base_img, white_overlay)
 
                     # Save result
                     result.save(output_path, "PNG")

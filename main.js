@@ -15,8 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const response = await fetch(`./data/map/map${playerCount}p.json`);
             const data = await response.json();
             mapData = data.spaces;
+
+            const hbResponse = await fetch(`./data/map/map${playerCount}pHitbox.json`);
+            const hbData = await hbResponse.json();
+            for (const [color, id] of Object.entries(hbData)) {
+                if (mapData[id]) {
+                    mapData[id].hitboxColor = `#${color.toUpperCase()}`;
+                }
+            }
             
-            hitboxImage.src = `./img/map/map${playerCount}p/hitbox.png`;
+            hitboxImage.src = `./img/map/map${playerCount}pHitbox.png`;
             hitboxImage.onload = () => {
                 hitboxCanvas.width = hitboxImage.width;
                 hitboxCanvas.height = hitboxImage.height;
@@ -39,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function addHighlight(regionId, type) {
         const img = document.createElement('img');
-        img.src = `./img/map/map${currentCount}p/areas/${regionId}.png`;
+        img.src = `./img/map/areas/map${currentCount}p/${regionId}.png`;
         img.className = `highlight-img highlight-${type}`;
         highlightsContainer.appendChild(img);
     }
@@ -111,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     playerCountSelect.addEventListener('change', (event) => {
         const playerCount = event.target.value;
         currentCount = playerCount;
-        const newSrc = `./img/map/map${playerCount}p/background.jpg`;
+        const newSrc = `./img/map/map${playerCount}p.jpg`;
         
         mapImage.src = newSrc;
         mapImage.alt = `Карта для ${playerCount} игроков`;
