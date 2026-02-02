@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'Mara';
+    src: url('./fonts/mara2v2.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lithos Pro Black';
+    src: url('./fonts/LithosPro-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url('./fonts/HelveticaNeueLight.otf') format('opentype');
+}
+
 body {
     font-family: sans-serif;
     margin: 0;
@@ -147,9 +162,10 @@ main {
 
 .power-tiles-section h2 {
     text-align: center;
-    font-size: 28px;
+    font-size: 64px;
     margin-bottom: 20px;
     font-weight: bold;
+    font-family: 'Mara', sans-serif;
 }
 
 .power-tiles-grid {
@@ -164,32 +180,41 @@ main {
     flex-direction: column;
     align-items: center;
     max-width: 254px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .power-tile {
     background-repeat: no-repeat;
-    cursor: pointer;
+    /* cursor: pointer; */
     transition: transform 0.2s;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     margin-bottom: 10px;
 }
 
+/*
 .power-tile:hover {
     transform: scale(1.05);
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
+*/
 
 .power-tile-title {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 5px;
     color: #333;
+    font-family: 'Lithos Pro Black', sans-serif;
 }
 
 .power-tile-text {
-    font-size: 12px;
+    font-size: 16px;
     text-align: center;
     color: #555;
     line-height: 1.4;
+    /* font-family: 'Helvetica Neue Light', sans-serif; */
 }

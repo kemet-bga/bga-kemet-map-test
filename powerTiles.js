@@ -65,6 +65,13 @@ async function loadPowerTiles() {
                         const titleElement = document.createElement('div');
                         titleElement.className = 'power-tile-title';
                         titleElement.textContent = titleText;
+
+                        // Устанавливаем цвет заголовка в зависимости от группы
+                        const group = tileInfo.group;
+                        if (group && layout[group]) {
+                            titleElement.style.color = `#${layout[group].titleColor}`;
+                        }
+
                         tileWrapper.appendChild(titleElement);
 
                         // Получаем локализованный текст
