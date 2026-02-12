@@ -235,16 +235,20 @@ main {
 /* DI Cards стили */
 #di-cards-container {
     width: 100%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
+}
+
+.di-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
 .di-card-wrapper {
     display: flex;
+    flex-direction: row;
     background-color: #fff;
     border: 2px solid #ccc;
     border-radius: 8px;
@@ -253,8 +257,8 @@ main {
 }
 
 .di-card-img-container {
-    flex: 0 0 200px;
-    background-color: #eee;
+    width: 140px;
+    flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -275,25 +279,24 @@ main {
 }
 
 .di-card-title {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     font-family: 'Lithos Pro Black', sans-serif;
     color: #333;
 }
 
 .di-card-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
     font-size: 14px;
     color: #666;
     border-bottom: 1px solid #eee;
-    padding-bottom: 5px;
+    padding-bottom: 8px;
 }
 
-.di-card-meta span {
-    margin: 0 5px;
-}
-
-.di-card-meta span:first-child {
-    margin-left: 0;
+.di-card-meta div {
+    white-space: nowrap;
 }
 
 .di-card-text {
