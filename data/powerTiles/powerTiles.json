@@ -1,300 +1,303 @@
 {
     "diamondPriest1": {
-        "name": "powerTiles.diamond.priest.name",
+        "name": "powerTiles.diamondPriest.name",
         "level": 1,
-        "text": "powerTiles.diamond.priest.text",
+        "text": "powerTiles.diamondPriest.text",
         "group": "diamond"
     },
     "diamondPriest2": {
-        "name": "powerTiles.diamond.priest.name",
+        "name": "powerTiles.diamondPriest.name",
         "level": 1,
-        "text": "powerTiles.diamond.priest.text",
+        "text": "powerTiles.diamondPriest.text",
         "group": "diamond"
     },
     "diamondPriestess1": {
-        "name": "powerTiles.diamond.priestess.name",
+        "name": "powerTiles.diamondPriestess.name",
         "level": 1,
-        "text": "powerTiles.diamond.priestess.text",
+        "text": "powerTiles.diamondPriestess.text",
         "group": "diamond"
     },
     "diamondPriestess2": {
-        "name": "powerTiles.diamond.priestess.name",
+        "name": "powerTiles.diamondPriestess.name",
         "level": 1,
-        "text": "powerTiles.diamond.priestess.text",
+        "text": "powerTiles.diamondPriestess.text",
         "group": "diamond"
     },
     "diamondMagicalSupport": {
-        "name": "powerTiles.diamond.magicalSupport.name",
+        "name": "powerTiles.diamondMagicalSupport.name",
         "level": 2,
-        "text": "powerTiles.diamond.magicalSupport.text",
+        "text": "powerTiles.diamondMagicalSupport.text",
         "group": "diamond"
     },
     "diamondHighPriest": {
-        "name": "powerTiles.diamond.highPriest.name",
+        "name": "powerTiles.diamondHighPriest.name",
         "level": 2,
-        "text": "powerTiles.diamond.highPriest.text",
+        "text": "powerTiles.diamondHighPriest.text",
         "group": "diamond"
     },
     "diamondDivineHunger": {
-        "name": "powerTiles.diamond.divineHunger.name",
+        "name": "powerTiles.diamondDivineHunger.name",
         "level": 2,
-        "text": "powerTiles.diamond.divineHunger.text",
+        "text": "powerTiles.diamondDivineHunger.text",
         "group": "diamond"
     },
     "diamondDivineBoon": {
-        "name": "powerTiles.diamond.divineBoon.name",
+        "name": "powerTiles.diamondDivineBoon.name",
         "level": 2,
-        "text": "powerTiles.diamond.divineBoon.text",
+        "text": "powerTiles.diamondDivineBoon.text",
         "group": "diamond"
     },
     "diamondHandOfGod": {
-        "name": "powerTiles.diamond.handOfGod.name",
+        "name": "powerTiles.diamondHandOfGod.name",
         "level": 3,
-        "text": "powerTiles.diamond.handOfGod.text",
+        "text": "powerTiles.diamondHandOfGod.text",
         "group": "diamond"
     },
     "diamondVision": {
-        "name": "powerTiles.diamond.vision.name",
+        "name": "powerTiles.diamondVision.name",
         "level": 3,
-        "text": "powerTiles.diamond.vision.text",
+        "text": "powerTiles.diamondVision.text",
         "group": "diamond"
     },
     "diamondPriestOfThoeris": {
-        "name": "powerTiles.diamond.priestOfThoeris.name",
+        "name": "powerTiles.diamondPriestOfThoeris.name",
         "level": 3,
-        "text": "powerTiles.diamond.priestOfThoeris.text",
+        "text": "powerTiles.diamondPriestOfThoeris.text",
         "group": "diamond"
     },
     "diamondDomination": {
-        "name": "powerTiles.diamond.domination.name",
+        "name": "powerTiles.diamondDomination.name",
         "level": 3,
-        "text": "powerTiles.diamond.domination.text",
+        "text": "powerTiles.diamondDomination.text",
         "group": "diamond"
     },
     "diamondPriestOfRa": {
-        "name": "powerTiles.diamond.priestOfRa.name",
+        "name": "powerTiles.diamondPriestOfRa.name",
         "level": 4,
-        "text": "powerTiles.diamond.priestOfRa.text",
+        "text": "powerTiles.diamondPriestOfRa.text",
         "group": "diamond"
     },
     "diamondPriestOfAmon": {
-        "name": "powerTiles.diamond.priestOfAmon.name",
+        "name": "powerTiles.diamondPriestOfAmon.name",
         "level": 4,
-        "text": "powerTiles.diamond.priestOfAmon.text",
+        "text": "powerTiles.diamondPriestOfAmon.text",
         "group": "diamond"
     },
     "diamondTheMummy": {
-        "name": "powerTiles.diamond.theMummy.name",
+        "name": "powerTiles.diamondTheMummy.name",
         "level": 4,
-        "text": "powerTiles.diamond.theMummy.text",
+        "text": "powerTiles.diamondTheMummy.text",
         "group": "diamond",
-		"creature": "theMummy"
+        "creature": "theMummy"
     },
     "diamondActOfGod": {
-        "name": "powerTiles.diamond.actOfGod.name",
+        "name": "powerTiles.diamondActOfGod.name",
         "level": 4,
-        "text": "powerTiles.diamond.actOfGod.text",
+        "text": "powerTiles.diamondActOfGod.text",
         "group": "diamond",
         "silverActionToken": true
     },
     "sapphireRecruitingScribe1": {
-        "name": "powerTiles.sapphire.recruitingScribe.name",
+        "name": "powerTiles.sapphireRecruitingScribe.name",
         "level": 1,
-        "text": "powerTiles.sapphire.recruitingScribe.text",
+        "text": "powerTiles.sapphireRecruitingScribe.text",
         "group": "sapphire"
     },
     "sapphireRecruitingScribe2": {
-        "name": "powerTiles.sapphire.recruitingScribe.name",
+        "name": "powerTiles.sapphireRecruitingScribe.name",
         "level": 1,
-        "text": "powerTiles.sapphire.recruitingScribe.text",
+        "text": "powerTiles.sapphireRecruitingScribe.text",
         "group": "sapphire"
     },
     "sapphireDefense1": {
-        "name": "powerTiles.sapphire.defense.name",
+        "name": "powerTiles.sapphireDefense.name",
         "level": 1,
-        "text": "powerTiles.sapphire.defense.text",
+        "text": "powerTiles.sapphireDefense.text",
         "group": "sapphire"
     },
     "sapphireDefense2": {
-        "name": "powerTiles.sapphire.defense.name",
+        "name": "powerTiles.sapphireDefense.name",
         "level": 1,
-        "text": "powerTiles.sapphire.defense.text",
+        "text": "powerTiles.sapphireDefense.text",
         "group": "sapphire"
     },
     "sapphireLegion": {
-        "name": "powerTiles.sapphire.legion.name",
+        "name": "powerTiles.sapphireLegion.name",
         "level": 2,
-        "text": "powerTiles.sapphire.legion.text",
+        "text": "powerTiles.sapphireLegion.text",
         "group": "sapphire"
     },
     "sapphireAncestralElephant": {
-        "name": "powerTiles.sapphire.ancestralElephant.name",
+        "name": "powerTiles.sapphireAncestralElephant.name",
         "level": 2,
-        "text": "powerTiles.sapphire.ancestralElephant.text",
+        "text": "powerTiles.sapphireAncestralElephant.text",
         "group": "sapphire",
-		"creature": "ancestralElephant"
+        "creature": "ancestralElephant"
     },
     "sapphireShetywBarrier": {
-        "name": "powerTiles.sapphire.shetywBarrier.name",
+        "name": "powerTiles.sapphireShetywBarrier.name",
         "level": 2,
-        "text": "powerTiles.sapphire.shetywBarrier.text",
+        "text": "powerTiles.sapphireShetywBarrier.text",
         "group": "sapphire"
     },
     "sapphireDeepDesertSnake": {
-        "name": "powerTiles.sapphire.deepDesertSnake.name",
+        "name": "powerTiles.sapphireDeepDesertSnake.name",
         "level": 2,
-        "text": "powerTiles.sapphire.deepDesertSnake.text",
+        "text": "powerTiles.sapphireDeepDesertSnake.text",
         "group": "sapphire",
-		"creature": "deepDesertSnake"
+        "creature": "deepDesertSnake"
     },
     "sapphireShieldsOfNeith": {
-        "name": "powerTiles.sapphire.shieldsOfNeith.name",
+        "name": "powerTiles.sapphireShieldsOfNeith.name",
         "level": 3,
-        "text": "powerTiles.sapphire.shieldsOfNeith.text",
+        "text": "powerTiles.sapphireShieldsOfNeith.text",
         "group": "sapphire"
     },
     "sapphireDefensiveVictory": {
-        "name": "powerTiles.sapphire.defensiveVictory.name",
+        "name": "powerTiles.sapphireDefensiveVictory.name",
         "level": 3,
-        "text": "powerTiles.sapphire.defensiveVictory.text",
+        "text": "powerTiles.sapphireDefensiveVictory.text",
         "group": "sapphire"
     },
     "sapphirePrescience": {
-        "name": "powerTiles.sapphire.prescience.name",
+        "name": "powerTiles.sapphirePrescience.name",
         "level": 3,
-        "text": "powerTiles.sapphire.prescience.text",
+        "text": "powerTiles.sapphirePrescience.text",
         "group": "sapphire"
     },
     "sapphireDomination": {
-        "name": "powerTiles.sapphire.domination.name",
+        "name": "powerTiles.sapphireDomination.name",
         "level": 3,
-        "text": "powerTiles.sapphire.domination.text",
+        "text": "powerTiles.sapphireDomination.text",
         "group": "sapphire"
     },
     "sapphireReinforcements": {
-        "name": "powerTiles.sapphire.reinforcements.name",
+        "name": "powerTiles.sapphireReinforcements.name",
         "level": 4,
-        "text": "powerTiles.sapphire.reinforcements.text",
+        "text": "powerTiles.sapphireReinforcements.text",
         "group": "sapphire"
     },
     "sapphireSphinx": {
-        "name": "powerTiles.sapphire.sphinx.name",
+        "name": "powerTiles.sapphireSphinx.name",
         "level": 4,
-        "text": "powerTiles.sapphire.sphinx.text",
+        "text": "powerTiles.sapphireSphinx.text",
         "group": "sapphire",
-		"creature": "sphinx"
+        "creature": "sphinx"
     },
     "sapphireDivineWill": {
-        "name": "powerTiles.sapphire.divineWill.name",
+        "name": "powerTiles.sapphireDivineWill.name",
         "level": 4,
-        "text": "powerTiles.sapphire.divineWill.text",
+        "text": "powerTiles.sapphireDivineWill.text",
         "group": "sapphire",
-        "goldActionToken": ["goldRecruit", "goldMovement"]
+        "goldActionToken": [
+            "goldRecruit",
+            "goldMovement"
+        ]
     },
     "sapphireActOfGod": {
-        "name": "powerTiles.sapphire.actOfGod.name",
+        "name": "powerTiles.sapphireActOfGod.name",
         "level": 4,
-        "text": "powerTiles.sapphire.actOfGod.text",
+        "text": "powerTiles.sapphireActOfGod.text",
         "group": "sapphire",
         "silverActionToken": true
     },
     "rubyCharge1": {
-        "name": "powerTiles.ruby.charge.name",
+        "name": "powerTiles.rubyCharge.name",
         "level": 1,
-        "text": "powerTiles.ruby.charge.text",
+        "text": "powerTiles.rubyCharge.text",
         "group": "ruby"
     },
     "rubyCharge2": {
-        "name": "powerTiles.ruby.charge.name",
+        "name": "powerTiles.rubyCharge.name",
         "level": 1,
-        "text": "powerTiles.ruby.charge.text",
+        "text": "powerTiles.rubyCharge.text",
         "group": "ruby"
     },
     "rubyStargate": {
-        "name": "powerTiles.ruby.stargate.name",
+        "name": "powerTiles.rubyStargate.name",
         "level": 1,
-        "text": "powerTiles.ruby.stargate.text",
+        "text": "powerTiles.rubyStargate.text",
         "group": "ruby"
     },
     "rubyPriestOfMafdet": {
-        "name": "powerTiles.ruby.priestOfMafdet.name",
+        "name": "powerTiles.rubyPriestOfMafdet.name",
         "level": 1,
-        "text": "powerTiles.ruby.priestOfMafdet.text",
+        "text": "powerTiles.rubyPriestOfMafdet.text",
         "group": "ruby"
     },
     "rubyCarnage": {
-        "name": "powerTiles.ruby.carnage.name",
+        "name": "powerTiles.rubyCarnage.name",
         "level": 2,
-        "text": "powerTiles.ruby.carnage.text",
+        "text": "powerTiles.rubyCarnage.text",
         "group": "ruby"
     },
     "rubyWrrytStorm": {
-        "name": "powerTiles.ruby.wrrytStorm.name",
+        "name": "powerTiles.rubyWrrytStorm.name",
         "level": 2,
-        "text": "powerTiles.ruby.wrrytStorm.text",
+        "text": "powerTiles.rubyWrrytStorm.text",
         "group": "ruby"
     },
     "rubySappers": {
-        "name": "powerTiles.ruby.sappers.name",
+        "name": "powerTiles.rubySappers.name",
         "level": 2,
-        "text": "powerTiles.ruby.sappers.text",
+        "text": "powerTiles.rubySappers.text",
         "group": "ruby"
     },
     "rubyPortalOfThoth": {
-        "name": "powerTiles.ruby.portalOfThoth.name",
+        "name": "powerTiles.rubyPortalOfThoth.name",
         "level": 2,
-        "text": "powerTiles.ruby.portalOfThoth.text",
+        "text": "powerTiles.rubyPortalOfThoth.text",
         "group": "ruby"
     },
     "rubyRoyalScarab": {
-        "name": "powerTiles.ruby.royalScarab.name",
+        "name": "powerTiles.rubyRoyalScarab.name",
         "level": 3,
-        "text": "powerTiles.ruby.royalScarab.text",
+        "text": "powerTiles.rubyRoyalScarab.text",
         "group": "ruby",
-		"creature": "royalScarab"
+        "creature": "royalScarab"
     },
     "rubyBladesOfNeith": {
-        "name": "powerTiles.ruby.bladesOfNeith.name",
+        "name": "powerTiles.rubyBladesOfNeith.name",
         "level": 3,
-        "text": "powerTiles.ruby.bladesOfNeith.text",
+        "text": "powerTiles.rubyBladesOfNeith.text",
         "group": "ruby"
     },
     "rubyDivineWound": {
-        "name": "powerTiles.ruby.divineWound.name",
+        "name": "powerTiles.rubyDivineWound.name",
         "level": 3,
-        "text": "powerTiles.ruby.divineWound.text",
+        "text": "powerTiles.rubyDivineWound.text",
         "group": "ruby"
     },
     "rubyDomination": {
-        "name": "powerTiles.ruby.domination.name",
+        "name": "powerTiles.rubyDomination.name",
         "level": 3,
-        "text": "powerTiles.ruby.domination.text",
+        "text": "powerTiles.rubyDomination.text",
         "group": "ruby"
     },
     "rubyGiantScorpion": {
-        "name": "powerTiles.ruby.giantScorpion.name",
+        "name": "powerTiles.rubyGiantScorpion.name",
         "level": 4,
-        "text": "powerTiles.ruby.giantScorpion.text",
+        "text": "powerTiles.rubyGiantScorpion.text",
         "group": "ruby",
-		"creature": "giantScorpion"
+        "creature": "giantScorpion"
     },
     "rubyInitiative": {
-        "name": "powerTiles.ruby.initiative.name",
+        "name": "powerTiles.rubyInitiative.name",
         "level": 4,
-        "text": "powerTiles.ruby.initiative.text",
+        "text": "powerTiles.rubyInitiative.text",
         "group": "ruby"
     },
     "rubyPhoenix": {
-        "name": "powerTiles.ruby.phoenix.name",
+        "name": "powerTiles.rubyPhoenix.name",
         "level": 4,
-        "text": "powerTiles.ruby.phoenix.text",
+        "text": "powerTiles.rubyPhoenix.text",
         "group": "ruby",
-		"creature": "phoenix"
+        "creature": "phoenix"
     },
     "rubyActOfGod": {
-        "name": "powerTiles.ruby.actOfGod.name",
+        "name": "powerTiles.rubyActOfGod.name",
         "level": 4,
-        "text": "powerTiles.ruby.actOfGod.text",
+        "text": "powerTiles.rubyActOfGod.text",
         "group": "ruby",
         "silverActionToken": true
     },
@@ -321,7 +324,9 @@
         "level": 1,
         "text": "powerTiles.onyxRiteOfAqen.text",
         "group": "onyx",
-        "goldActionToken": ["goldPray"]
+        "goldActionToken": [
+            "goldPray"
+        ]
     },
     "onyxHonorInBattle": {
         "name": "powerTiles.onyxHonorInBattle.name",
@@ -340,28 +345,32 @@
         "level": 2,
         "text": "powerTiles.onyxKhnumsSphinx.text",
         "group": "onyx",
-		"creature": "khnumsSphinx"
+        "creature": "khnumsSphinx"
     },
     "onyxTwinCeremony": {
         "name": "powerTiles.onyxTwinCeremony.name",
         "level": 2,
         "text": "powerTiles.onyxTwinCeremony.text",
         "group": "onyx",
-        "goldActionToken": ["goldBuyPowerTile"]
+        "goldActionToken": [
+            "goldBuyPowerTile"
+        ]
     },
     "onyxGriffinSphinx": {
         "name": "powerTiles.onyxGriffinSphinx.name",
         "level": 3,
         "text": "powerTiles.onyxGriffinSphinx.text",
         "group": "onyx",
-		"creature": "griffinSphinx"
+        "creature": "griffinSphinx"
     },
     "onyxForcedMarch": {
         "name": "powerTiles.onyxForcedMarch.name",
         "level": 3,
         "text": "powerTiles.onyxForcedMarch.text",
         "group": "onyx",
-        "goldActionToken": ["goldMovement"]
+        "goldActionToken": [
+            "goldMovement"
+        ]
     },
     "onyxDeadlyTrap": {
         "name": "powerTiles.onyxDeadlyTrap.name",
@@ -380,7 +389,7 @@
         "level": 4,
         "text": "powerTiles.onyxAmmoutTheSoulDevourer.text",
         "group": "onyx",
-		"creature": "ammoutTheSoulDevourer"
+        "creature": "ammoutTheSoulDevourer"
     },
     "onyxBestialFury": {
         "name": "powerTiles.onyxBestialFury.name",

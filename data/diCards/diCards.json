@@ -1,0 +1,162 @@
+{
+  "warRage": {
+    "name": "diCards.warRage.name",
+    "icon": "battle",
+    "count": 3,
+    "cost": 0,
+    "text": "diCards.warRage.text",
+	"taSeti": false
+  },
+  "warFury": {
+    "name": "diCards.warFury.name",
+    "icon": "battle",
+    "count": 3,
+    "cost": 1,
+    "text": "diCards.warFury.text",
+	"taSeti": false
+  },
+  "bloodyBattle": {
+    "name": "diCards.bloodyBattle.name",
+    "icon": "battle",
+    "count": 3,
+    "cost": 0,
+    "text": "diCards.bloodyBattle.text",
+	"taSeti": false
+  },
+  "bloodbath": {
+    "name": "diCards.bloodbath.name",
+    "icon": "battle",
+    "count": 2,
+    "cost": 1,
+    "text": "diCards.bloodbath.text",
+	"taSeti": false
+  },
+  "bronzeWall": {
+    "name": "diCards.bronzeWall.name",
+    "icon": "battle",
+    "count": 3,
+    "cost": 0,
+    "text": "diCards.bronzeWall.text",
+	"taSeti": false
+  },
+  "ironWall": {
+    "name": "diCards.ironWall.name",
+    "icon": "battle",
+    "count": 2,
+    "cost": 1,
+    "text": "diCards.ironWall.text",
+	"taSeti": false
+  },
+  "rainingFire": {
+    "name": "diCards.rainingFire.name",
+    "icon": "day",
+    "count": 4,
+    "cost": 1,
+    "text": "diCards.rainingFire.text",
+	"taSeti": false
+  },
+  "prayer": {
+    "name": "diCards.prayer.name",
+    "icon": "day",
+    "count": 2,
+    "cost": 0,
+    "text": "diCards.prayer.text",
+	"taSeti": false
+  },
+  "enlistment": {
+    "name": "diCards.enlistment.name",
+    "icon": "day",
+    "count": 4,
+    "cost": 0,
+    "text": "diCards.enlistment.text",
+	"taSeti": false
+  },
+  "manaDuplication": {
+    "name": "diCards.manaDuplication.name",
+    "icon": "day",
+    "count": 2,
+    "cost": 0,
+    "text": "diCards.manaDuplication.text",
+	"taSeti": false
+  },
+  "transfer": {
+    "name": "diCards.transfer.name",
+    "icon": "day",
+    "count": 3,
+    "cost": 1,
+    "text": "diCards.transfer.text",
+	"taSeti": false
+  },
+  "openGates": {
+    "name": "diCards.openGates.name",
+    "icon": "day",
+    "count": 1,
+    "cost": 1,
+    "text": "diCards.openGates.text",
+	"taSeti": false
+  },
+  "veto": {
+    "name": "diCards.veto.name",
+    "icon": "blackCartouche",
+    "count": 2,
+    "cost": 0,
+    "text": "diCards.veto.text",
+	"taSeti": false
+  },
+  "escape": {
+    "name": "diCards.escape.name",
+    "icon": "blackCartouche",
+    "count": 1,
+    "cost": 0,
+    "text": "diCards.escape.text",
+	"taSeti": false
+  },
+  "swiftness": {
+    "name": "diCards.swiftness.name",
+    "icon": "day",
+    "count": 2,
+    "cost": 0,
+    "text": "diCards.swiftness.text",
+	"taSeti": true
+  },
+  "glory": {
+    "name": "diCards.glory.name",
+    "icon": "battle",
+    "count": 2,
+    "cost": 0,
+    "text": "diCards.glory.text",
+	"taSeti": true
+  },
+  "divineMemory": {
+    "name": "diCards.divineMemory.name",
+    "icon": "day",
+    "count": 2,
+    "cost": 1,
+    "text": "diCards.divineMemory.text",
+	"taSeti": true
+  },
+  "divineProtection": {
+    "name": "diCards.divineProtection.name",
+    "icon": "battle",
+    "count": 2,
+    "cost": 0,
+    "text": "diCards.divineProtection.text",
+	"taSeti": true
+  },
+  "conscription": {
+    "name": "diCards.conscription.name",
+    "icon": "battle",
+    "count": 2,
+    "cost": 0,
+    "text": "diCards.conscription.text",
+	"taSeti": true
+  },
+  "snare": {
+    "name": "diCards.snare.name",
+    "icon": "battle",
+    "count": 2,
+    "cost": 0,
+    "text": "diCards.snare.text",
+	"taSeti": true
+  }
+}

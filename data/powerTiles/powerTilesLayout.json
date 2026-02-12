@@ -1,7 +1,5 @@
 {
     "ruby": {
-        "title": "Ruby power tiles",
-        "titleColor": "9b222f",
         "layout": [
             [
                 "rubyCharge1",
@@ -30,8 +28,6 @@
         ]
     },
     "sapphire": {
-        "title": "Sapphire power tiles",
-        "titleColor": "0e4d95",
         "layout": [
             [
                 "sapphireRecruitingScribe1",
@@ -60,8 +56,6 @@
         ]
     },
     "diamond": {
-        "title": "Diamond power tiles",
-        "titleColor": "231f20",
         "layout": [
             [
                 "diamondPriest1",
@@ -90,8 +84,6 @@
         ]
     },
     "onyx": {
-        "title": "Onyx power tiles",
-        "titleColor": "231f20",
         "layout": [
             [
                 "onyxMercenaries1",

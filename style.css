@@ -231,3 +231,74 @@ main {
     max-width: 80px;
     height: auto;
 }
+
+/* DI Cards стили */
+#di-cards-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.di-card-wrapper {
+    display: flex;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.di-card-img-container {
+    flex: 0 0 200px;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.di-card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.di-card-info {
+    flex: 1;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.di-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Lithos Pro Black', sans-serif;
+    color: #333;
+}
+
+.di-card-meta {
+    font-size: 14px;
+    color: #666;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.di-card-meta span {
+    margin: 0 5px;
+}
+
+.di-card-meta span:first-child {
+    margin-left: 0;
+}
+
+.di-card-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    white-space: pre-line;
+}
